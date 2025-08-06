@@ -1,0 +1,106 @@
+.Main-Portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+
+  .container {
+    width: 978px;
+    border-left: 1px solid #d7d7d7;
+    border-right: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    margin-right: 22px;
+
+    .center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0;
+      margin-left: 22px;
+
+      ul {
+        font-weight: 100;
+        font-size: 17px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 479px;
+        line-height: 22px;
+      }
+
+      .cta-row {
+        margin-right: 9rem;
+
+        margin-top: 32px;
+        display: flex;
+        gap: 18px;
+        justify-content: start;
+        align-items: center;
+
+        .cta-btn {
+          font-size: 16px;
+          padding: 10px 28px;
+          border-radius: 999px;
+          font-weight: 600;
+          border: none;
+          cursor: pointer;
+          transition: box-shadow 0.2s;
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+        }
+
+        .red {
+          background: #ff4136;
+          color: #fff;
+        }
+
+        :hover {
+          background-color: black !important;
+          color: #fff;
+          transition: 1s;
+        }
+
+        .resume {
+          background: #fff;
+          color: #222;
+          border: 1px solid #222;
+        }
+
+        :hover {
+          background-color: #EFEFEF;
+          transition: 1s;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+
+  .Main-Portfolio {
+    margin-top: 80px;
+    margin-left: 270px;
+
+    .container {
+      border: none;
+      margin-right: 4rem;
+
+      .center {
+        ul {
+          font-weight: 100;
+          font-size: 17px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          width: 389px;
+          line-height: 22px;
+        }
+
+        .cta-row {
+          margin-right: 3rem;
+        }
+      }
+    }
+  }
+}

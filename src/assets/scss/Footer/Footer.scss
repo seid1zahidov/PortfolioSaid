@@ -1,0 +1,116 @@
+.Footer {
+    .Date {
+        display: flex;
+        justify-content: center;
+        border: 1px solid #d7d7d7;
+
+        .Date-line {
+            width: 978px;
+            background-color: black;
+            margin-right: 22px;
+            line-height: 16px;
+            padding: 10px;
+            height: 24px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 10px;
+        }
+    }
+
+    .slider {
+        display: flex;
+        justify-content: center;
+        margin-top: -1px;
+
+        .SLIDER {
+            position: relative;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-right: 1px solid #d7d7d7;
+            border-left: 1px solid #d7d7d7;
+            width: 978px;
+            margin-right: 22px;
+            font-weight: 800;
+            color: black;
+            font-size: 40px;
+            height: 74px;
+
+            h1 {
+                font-weight: 800;
+                display: flex;
+            }
+
+            ::after {
+                content: "";
+                position: absolute;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                top: 20px;
+                left: -40px;
+                width: 30px;
+                height: 30px;
+                background-image: url("../../../img/109c97d94305a701a3de8f49e96700b1d7262c86.jpg");
+            }
+
+            ::before {
+                content: "";
+                position: absolute;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                top: 20px;
+                right: -40px;
+                width: 30px;
+                height: 30px;
+                background-image: url("../../../img/109c97d94305a701a3de8f49e96700b1d7262c86.jpg");
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .Footer {
+        .slider {
+            margin-top: 20px;
+
+            .SLIDER {
+                position: relative;
+                align-items: center;
+                display: flex;
+                justify-content: center;
+                /* border-right: 1px solid #d7d7d7; */
+                /* border-left: 1px solid #d7d7d7; */
+                width: 836px;
+                /* margin-right: 22px; */
+                font-weight: 800;
+                color: black;
+                font-size: 40px;
+                height: 74px;
+            }
+        }
+
+        .Date {
+            border: none;
+
+            .Date-line {
+                width: 558px;
+                background-color: black;
+                margin-right: 0px;
+                line-height: 16px;
+                padding: 10px;
+                height: 24px;
+                color: #fff;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-size: 10px;
+                position: absolute;
+                left: 69px;
+            }
+        }
+    }
+}
