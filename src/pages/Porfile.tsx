@@ -1,4 +1,3 @@
-import React from "react";
 import "../assets/scss/Porfile/Porfile.css";
 import '../assets/global/global.css';
 import { GoArrowUpRight } from "react-icons/go";

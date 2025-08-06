@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "../assets/scss/Header/Header.css";
 import "../assets/global/global.css";
 import responsiveMenu from "../img/Responsive_menu.png";
